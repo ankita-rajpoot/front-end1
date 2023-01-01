@@ -1,0 +1,82 @@
+.nsap {
+    background-color: #eeeeee;
+    margin: 40px 15px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.nsapUserImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.nsapCardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nsapCardHeaderLeft {
+    display: flex;
+    align-items: center;
+}
+
+.nsapCardHeaderLeft .nsapInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nsapUserName {
+    font-weight: bold;
+}
+
+.nsapDate {
+    font-size: 12px;
+}
+
+.nsapCardHeaderRight svg {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nsapCardBody {
+    padding: 15px 0;
+}
+
+.nsapText {
+    margin-bottom: 5px
+}
+
+.nsapImg {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.nsapCardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nsapCardFooterLeft {
+    display: flex;
+    align-items: center;
+}
+
+.nsapCardFooterLeft img {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.nsapCounter,
+.nsapComments {
+    font-weight: bold;
+    font-size: 14px;
+}

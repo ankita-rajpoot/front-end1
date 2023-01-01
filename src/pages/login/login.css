@@ -1,0 +1,96 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formGroups {
+    width: 900px;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 20px 15px;
+}
+
+.formLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formRight {
+    flex: 1;
+}
+
+.formsSubTitle {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+.formsTitle {
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 40px;
+}
+
+.formGroup {
+    margin-bottom: 30px;
+}
+
+.formGroup input {
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-btnLogin button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #4141ff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    letter-spacing: 1.3px;
+}
+
+.form-btnLogin button:hover {
+    background-color: #ffffff;
+    color: #4141ff;
+}
+
+.form-btnRegister {
+    margin-top: 80px;
+}
+
+.form-btnRegister a {
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #01ff2c;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 1s;
+    letter-spacing: 1.3px;
+}
+
+.form-btnRegister a:hover {
+    background-color: #ffffff;
+    color: #01ff2c;
+}

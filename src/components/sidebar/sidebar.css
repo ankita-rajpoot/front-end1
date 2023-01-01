@@ -1,0 +1,58 @@
+.sidebar {
+    flex: 1;
+    position: sticky;
+    top: 0;
+    overflow-y: scroll;
+    height: calc(100vh - 80px);
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar .sidebarGroups .sidebarGroup {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.sidebar .sidebarGroups .sidebarGroup:first-child {
+    margin-bottom: 30px;
+}
+
+.sidebar .sidebarGroups .hr {
+    margin-top: 30px;
+}
+
+.sidebar .sidebarGroups .sidebarGroup:hover {
+    background-color: #ffffff;
+}
+
+.sidebar .sidebarGroups .sidebarGroup .sidebarLink {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .sidebarGroups .sidebarGroup .currentUserImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar .sidebarGroups .sidebarGroup svg {
+    font-size: 20px;
+    color: #2e2e2e;
+    margin-right: 10px;
+}
+
+.sidebar .sidebarGroups .sidebarGroup button {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: none;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}

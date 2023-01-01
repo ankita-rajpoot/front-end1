@@ -1,0 +1,95 @@
+.share {
+    background-color: #eeeeee;
+    margin: 40px 15px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.shareGroups .shareGroup {
+    padding: 10px 0;
+}
+
+.shareGroups .shareGroup:first-child {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ffffff;
+}
+
+.shareGroups .shareGroup .shareGroupLeft img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.shareGroups .shareGroup .shareGroupRight input {
+    border: none;
+    outline: none;
+    width: 620px;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.shareGroup:last-child {
+    display: flex;
+}
+
+.shareGroupIcons {
+    margin-top: 20px;
+    flex: 3;
+    display: flex;
+}
+
+.shareGroupIcon {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.shareGroupIcon:hover {
+    border-bottom: 1px solid #000000;
+}
+
+.shareGroupIcon svg {
+    margin-right: 5px;
+}
+
+.shareGroupIcon:first-child svg {
+    color: #00ff00;
+}
+
+.shareGroupIcon:nth-child(2) svg {
+    color: #000000;
+}
+
+.shareGroupIcon:nth-child(3) svg {
+    color: #ff0000;
+}
+
+.shareGroupIcon:last-child svg {
+    color: rgb(184, 134, 11);
+}
+
+.shareGroupShareBtn {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.shareGroupShareBtn button {
+    display: block;
+    margin: 0 0 0 auto;
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.shareGroupShareBtn button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}

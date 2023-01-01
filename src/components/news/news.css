@@ -1,0 +1,10 @@
+.news {
+    flex: 3;
+    background-color: #ffffff;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+
+.news::-webkit-scrollbar {
+    display: none;
+}

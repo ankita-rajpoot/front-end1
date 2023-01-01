@@ -1,0 +1,117 @@
+.top {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.topLeft,
+.topMiddle,
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.topLeft .logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.topLeft .topSearch {
+    position: relative;
+    margin-left: 10px;
+}
+
+.topLeft .topSearch input {
+    border: none;
+    outline: none;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 238);
+    height: 30px;
+    color: #000000;
+    padding: 0px 10px;
+}
+
+.topLeft .topSearch svg {
+    position: absolute;
+    right: 10px;
+    color: #a5a5a5;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.topMiddle .topLinks ul {
+    display: flex;
+}
+
+.topMiddle .topLinks ul li {
+    margin: 0 10px;
+}
+
+.topMiddle .topLinks ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.topMiddle .topLinks ul li a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.topMiddle .topLinks ul li .active {
+    border-bottom: 2px solid #000000;
+}
+
+.topRight .notifications {
+    display: flex;
+}
+
+.topRight .notifications .notification {
+    margin: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topRight .notifications .notification .badge {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #ff0000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.topRight .user {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.topRight .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topRight .user .userLogout {
+    cursor: pointer;
+}
+
+.topRight .user .userLogout:hover {
+    color: #a5a5a5;
+}

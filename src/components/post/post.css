@@ -1,0 +1,82 @@
+.post {
+    background-color: #eeeeee;
+    margin: 40px 15px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.postUserImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.postCardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postCardHeaderLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postCardHeaderLeft .postInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.postUserName {
+    font-weight: bold;
+}
+
+.postDate {
+    font-size: 12px;
+}
+
+.postCardHeaderRight svg {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.postCardBody {
+    padding: 15px 0;
+}
+
+.postText {
+    margin-bottom: 5px
+}
+
+.postImg {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postCardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postCardFooterLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postCardFooterLeft img {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.postCounter,
+.postComments {
+    font-weight: bold;
+    font-size: 14px;
+}

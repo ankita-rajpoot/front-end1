@@ -1,0 +1,5 @@
+.mainContainer {
+    display: flex;
+    padding-top: 50px;
+    min-height: calc(100vh - 110px);
+}
